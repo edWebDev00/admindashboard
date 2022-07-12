@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -17,29 +21,29 @@
             </div>
         <div class="nav">
             <ul>
-                <li><img src="images/home.png" style="width:20px; height: 20px; background-color:transparent"><p>Home</p></li>
-                <li><img src="images/face.png" style="width:20px; height: 20px; background-color:transparent"><p>Profile</p></li>
-                <li><img src="images/message.png" style="width:20px; height: 20px; background-color:transparent"><p>Messages</p></li>
-                <li><img src="images/history.png" style="width:20px; height: 20px; background-color:transparent"><p>History</p></li>
-                <li><img src="images/tasks.png" style="width:20px; height: 20px; background-color:transparent"><p>Tasks</p></li>
-                <li><img src="images/community.png" style="width:20px; height: 20px; background-color:transparent"><p>Communities</p></li>
+                <li><img src="images/home.png"><p>Home</p></li>
+                <li><img src="images/face.png"><p>Profile</p></li>
+                <li><img src="images/message.png"><p>Messages</p></li>
+                <li><img src="images/history.png"><p>History</p></li>
+                <li><img src="images/tasks.png" ><p>Tasks</p></li>
+                <li><img src="images/community.png"><p>Communities</p></li>
             </ul>
             </div>
         <ul class="tools">
-                <li><img src="images/community.png" style="width:20px; height: 20px; background-color:transparent"><p>Settings</p></li>
-                <li><img src="images/face-agent.png" style="width:20px; height: 20px; background-color:transparent"><p>Support</p></li>
-                <li><img src="images/vpn.png" style="width:20px; height: 20px; background-color:transparent"><p>privacy</p></li>
+                <li><img src="images/community.png" ><p>Settings</p></li>
+                <li><img src="images/face-agent.png" ><p>Support</p></li>
+                <li><img src="images/vpn.png" ><p>privacy</p></li>
             </ul> 
     </div>
 <!--Header Start-->
     <div class="header">
         <div class="search">
-            <img style="width: 20px; height: 20px;" src="images/magnify.png">
+            <img  src="images/magnify.png">
             <label></label>
             <input>
         </div>
         <div class="notify">
-            <img style="width: 20px; height: 20px" src="images/bell-outline.png">
+            <img id="bell" src="images/bell-outline.png">
             <img src="images/icon.jpg">
             <h3>Edward Crosby</h3>
         </div>
@@ -60,7 +64,7 @@
     <div class="main">
         <div class="projects">
             <h3>Your Projects</h3>
-            <div class="card">
+            <div class="card top">
                 <h4>Super Cool Project</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Magnam sint eveniet aut eum. Dolore, iure?
@@ -72,7 +76,7 @@
                     <img src="images/source.png">
                 </div>
             </div>
-            <div class="card">
+            <div class="card top">
                 <h4>Less Cool Project</h4>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                 Voluptas blanditiis eveniet repellat reprehenderit laudantium asperiores soluta quae, 
@@ -143,7 +147,7 @@
                 <h4>Updated Privacy Policy</h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                  Est omnis inventore quo.</p>
-                <hr>
+                
             </div>
         </div>
         <div class="trending">
